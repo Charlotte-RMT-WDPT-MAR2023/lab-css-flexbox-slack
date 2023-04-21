@@ -8,3 +8,242 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Arimo";
+}
+
+html {
+  font-size: 10px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  width: 80%;
+  margin: auto;
+}
+
+h2,
+h3 {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+main p {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+main a {
+  padding: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.logo {
+  height: 2rem;
+}
+
+header,
+nav {
+  background-color: #540b51;
+}
+
+nav img {
+  display: flex;
+  float: right;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: none;
+}
+
+header p {
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.orange {
+  color: orange;
+  font-weight: bold;
+}
+
+.button1 {
+  background-color: #f3eae2;
+  color: #540b51;
+  border: none;
+  width: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  margin-left: 10%;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+}
+
+.button2 {
+  background-color: #4285f4;
+  border: none;
+  width: 80%;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  margin-left: 10%;
+  padding: 1%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.button2 img {
+  background-color: #f3eae2;
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  float: left;
+  height: 2rem;
+}
+
+main {
+  background-color: #f3eae2;
+}
+
+.trustedCompanies {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.trusted {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 3rem;
+  font-weight: bold;
+}
+
+.companies {
+  height: 2rem;
+  padding: 1rem;
+}
+
+.preview {
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.button3 {
+  background-color: #540b51;
+  color: #fff;
+  border: none;
+  width: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+}
+
+.button4 {
+  background-color: #fff;
+  color: #540b51;
+  border-color: #540b51;
+  width: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+}
+
+.button5 {
+  background-color: #540b51;
+  color: #fff;
+  border-color: #fff;
+  width: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+}
+
+.button6 {
+  background-color: #fff;
+  color: #540b51;
+  border-color: #540b51;
+  width: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+}
+
+footer {
+  padding: 1rem;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: space-between;
+}
+.statistics {
+  background-color: #fff;
+  text-align: center;
+}
+
+.number {
+  color: #540b51;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.welcome {
+  background-color: #540b51;
+  color: white;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.welcome h3 {
+  font-size: 2.3rem;
+}
+
+@media (max-width: 1000px) {
+  .responsive-div {
+  }
+}
